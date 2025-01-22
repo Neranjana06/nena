@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-500 p-4 shadow-md">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-2xl font-semibold">MyPortfolio</a>
+            <ul class="flex space-x-6 text-white">
+                <li><a href="#about" class="hover:underline">About Me</a></li>
+                <li><a href="#projects" class="hover:underline">Projects</a></li>
+                <li><a href="#contact" class="hover:underline">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-500 text-white py-20 text-center">
+        <h1 class="text-4xl font-bold">Hi, I'm Neranjana.GM</h1>
+        <p class="mt-4 text-lg">A passionate software engineer with a focus on web development.</p>
+        <a href="#contact" class="mt-6 inline-block px-6 py-2 bg-yellow-500 text-black rounded-lg hover:bg-yellow-400 transition">Get in Touch</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-16 px-6 bg-white text-center">
+        <h2 class="text-3xl font-bold text-blue-500">About Me</h2>
+        <p class="mt-4 max-w-3xl mx-auto text-lg">
+            I am a software engineer with over 5 years of experience building web applications. I specialize in JavaScript, React, and Node.js, with a passion for creating clean, scalable, and performant code. I enjoy learning new technologies and improving my skills.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-100 text-center">
+        <h2 class="text-3xl font-bold text-blue-500">My Projects</h2>
+        <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/500x300" alt="Project 1" class="rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-blue-600">Project 1</h3>
+                <p class="mt-2 text-gray-700">A full-stack web application built with React and Node.js. Includes authentication and RESTful APIs.</p>
+                <a href="#" class="mt-4 inline-block text-blue-500 hover:underline">View Project</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/500x300" alt="Project 2" class="rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-blue-600">Project 2</h3>
+                <p class="mt-2 text-gray-700">A mobile app built with React Native that helps users track their fitness goals and progress.</p>
+                <a href="#" class="mt-4 inline-block text-blue-500 hover:underline">View Project</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/500x300" alt="Project 3" class="rounded-md mb-4">
+                <h3 class="text-xl font-semibold text-blue-600">Project 3</h3>
+                <p class="mt-2 text-gray-700">A machine learning project for predicting stock prices based on historical data using Python and TensorFlow.</p>
+                <a href="#" class="mt-4 inline-block text-blue-500 hover:underline">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-6 bg-white text-center">
+        <h2 class="text-3xl font-bold text-blue-500">Contact Me</h2>
+        <p class="mt-4 text-lg">Feel free to reach out to me via email or through social media.</p>
+        <div class="mt-6 flex justify-center space-x-6">
+            <a href="mailto:john.doe@example.com" class="text-2xl text-blue-500 hover:text-blue-700">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://linkedin.com/in/johndoe" target="_blank" class="text-2xl text-blue-500 hover:text-blue-700">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/johndoe" target="_blank" class="text-2xl text-blue-500 hover:text-blue-700">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-500 text-white py-6 text-center">
+        <p>&copy; 2025 John Doe | All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Optional: Add some interactivity (like a smooth scroll) using JS
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
