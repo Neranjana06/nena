@@ -1,0 +1,19 @@
+body {
+      background-color: #e2e4e4;
+      color: #060406;
+      line-height: 1.6;
+    }
+    header {
+      background: #98f1f1;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      background: #444;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
